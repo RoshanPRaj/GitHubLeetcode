@@ -11,7 +11,6 @@ class Solution(object):
             final = temp % 10
             rev = (rev * 10) + final
             temp = temp / 10
-
         if rev == x:
             return True
         else:
