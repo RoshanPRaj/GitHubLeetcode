@@ -15,7 +15,6 @@ class Solution(object):
         }
         previous = 0
         running_total = 0
-
         for i in range(len(s)-1, -1, -1):
             initial_value = lookup_dict[s[i]]
             if initial_value < previous:
@@ -24,5 +23,3 @@ class Solution(object):
                 running_total += initial_value
             previous = initial_value
         return running_total
-
-        
