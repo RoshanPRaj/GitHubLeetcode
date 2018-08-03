@@ -13,7 +13,6 @@ class Solution(object):
                 temp_num = (temp_num*10) + (x % 10)
                 x = x/10
             return -1 * temp_num
-
         else:
             while (x>0):
                 temp_num = (temp_num*10) + (x % 10)
