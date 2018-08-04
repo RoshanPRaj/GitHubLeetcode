@@ -19,5 +19,5 @@ class Solution(object):
                 x = x/10
             return temp_num
         x = int(str(x))
-        if x not in range(-2147483648,2147483647):
+        if x not in range(-2147483648, 2147483647):
             return 0
