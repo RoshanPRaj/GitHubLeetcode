@@ -1,0 +1,17 @@
+class Solution(object):
+    def strStr(self, haystack, needle):
+        """
+        :type haystack: str
+        :type needle: str
+        :rtype: int
+        """
+        a = len(needle)
+        b = len(haystack)
+        i = 0
+        while a <= b:
+            if needle == haystack[i:i+a]:
+                return i
+            i = i+1
+            b = b-1
+        else:
+            return -1
