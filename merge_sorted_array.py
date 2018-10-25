@@ -10,9 +10,6 @@ class Solution(object):
         while n >= 1:
             nums1.remove(0)
             n -= 1
-        #print nums1
         for i in nums2:
-            #print i
             nums1.append(i)
-        #print nums1
         nums1 = nums1.sort()
