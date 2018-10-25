@@ -7,11 +7,9 @@ class Solution(object):
         :type n: int
         :rtype: void Do not return anything, modify nums1 in-place instead.
         """
-        a = len(nums2)
-        #print a
-        while a >= 1:
+        while n >= 1:
             nums1.remove(0)
-            a -= 1
+            n -= 1
         #print nums1
         for i in nums2:
             #print i
