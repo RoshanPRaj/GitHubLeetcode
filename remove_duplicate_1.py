@@ -11,6 +11,5 @@ class Solution(object):
         for i in range(1,len(nums)):
             if nums[i] != nums[temp]:
                 temp = temp + 1
-                nums[temp] = nums[i]
-                
+                nums[temp] = nums[i]        
         return temp + 1
