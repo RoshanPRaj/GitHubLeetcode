@@ -5,7 +5,7 @@ class Solution(object):
         :type m: int
         :type nums2: List[int]
         :type n: int
-        :rtype: void Do not return anything, modify nums1 in-place instead
+        :rtype: void Do not return anything, modify nums1 in-place instead.
         """
         while n >= 1:
             nums1.remove(0)
